@@ -32,6 +32,11 @@ class RSC(dlgBase) {
     name = "";
     onLoad = "";
     onUnload = "";
+    movingEnable = 0;
+    enableSimulation = 1;
+    fadein = 0;
+    fadeout = 0;
+    duration = 1000000;
     class controlsBackground {
         class TabletPicture : RSC(BasePicture) {
             idc = IDC_TABLET_BACKGROUND;
