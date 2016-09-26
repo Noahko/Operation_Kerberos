@@ -12,5 +12,8 @@ ADDON = false;
 #include "spawn\XEH_preInit.sqf"
 #include "headless\XEH_preInit.sqf"
 #include "acrepatch\XEH_preInit.sqf"
+#include "tablet\XEH_preInit.sqf"
+#include "tablet_acre\XEH_preInit.sqf"
+#include "ui\XEH_preInit.sqf"
 
 ADDON = true;

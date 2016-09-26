@@ -5,7 +5,7 @@ Author: Dorbedo
 #define CBA_OFF
 #include "script_component.hpp"
 
-class RscTitles {
+//class RscTitles {
     class GVAR(disp_msg) {
         duration = 20;
         idd = 700100;
@@ -145,4 +145,4 @@ class RscTitles {
             };
         };
     };
-};
+//};

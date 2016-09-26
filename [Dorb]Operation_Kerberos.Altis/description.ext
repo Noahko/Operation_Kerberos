@@ -45,6 +45,12 @@ __EXEC (D_ROOTDIR = __FILE__ select [0, count __FILE__ - 15])
 #include "interface\config\define.h"
 #include "interface\config\menu.h"
 #include "interface\config\rscTitles.h"
+#include "tablet\rscBase.hpp"
+#include "tablet_acre\dialog.hpp"
+class rscTitles {
+    #include "interface\config\rscTitles.h"
+    #include "ui\config\rscTitles.hpp"
+};
 
 // Eventhandlers
 #include "CfgEventHandlers.hpp"
